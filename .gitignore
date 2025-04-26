@@ -29,6 +29,8 @@ env/
 venv/
 ENV/
 .venv/
+ref
+*.h5
 
 # FastAPI specific
 instance/

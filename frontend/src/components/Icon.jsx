@@ -26,7 +26,7 @@ const Icon = ({ style }) => {
 				hard-of-hearing community.
 			</p>
 			<img
-				src="../people-talking-in-sign-language.jpg"
+				src="/people-talking-in-sign-language.jpg"
 				className={`object-cover rounded-lg ${showText ? "hidden" : "block"}`}
 			/>
 		</div>
