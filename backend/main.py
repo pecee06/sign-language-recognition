@@ -33,7 +33,7 @@ alphabet = ['1','2','3','4','5','6','7','8','9'] + list(string.ascii_uppercase)
 CONFIDENCE_THRESHOLD = 0.9
 VICINITY_SIZE = 2  # how many letters on the left we check
 
-@app.get("/api/detect")
+@app.get("/api/recognize")
 def read_sign_language():
     cap = cv2.VideoCapture(0)
 
